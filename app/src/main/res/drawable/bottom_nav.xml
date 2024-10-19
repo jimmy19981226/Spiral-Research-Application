@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Top Border Line -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/gray" /> <!-- Set border color here -->
+            <size android:height="0.5dp" /> <!-- Set border thickness here -->
+        </shape>
+    </item>
+    <!-- Background Color -->
+    <item android:top="2dp"> <!-- This should match the border thickness -->
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorPrimary" />
+        </shape>
+    </item>
+</layer-list>

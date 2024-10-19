@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TempleMaps" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/white</item> <!-- Change colorPrimary to white -->
+        <item name="colorPrimaryVariant">@color/black</item> <!-- Change colorPrimaryVariant to black -->
+        <item name="colorOnPrimary">@color/black</item> <!-- Change colorOnPrimary to black -->
+        <item name="colorSurface">@color/white</item> <!-- Change colorSurface to white -->
+        <item name="colorOnSurface">@color/black</item> <!-- Change colorOnSurface to black -->
+        <!-- You can add more color overrides here as needed -->
+    </style>
+
+    <style name="Theme.TempleMaps" parent="Base.Theme.TempleMaps" />
+</resources>

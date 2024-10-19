@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="preference_title">
+
+        <ListPreference
+            android:defaultValue="static"
+            android:dialogTitle="Spiral Effect"
+            android:entries="@array/SpiralEffect"
+            android:entryValues="@array/SpiralEffect_value"
+            android:key="spiral_effect"
+            android:title="Spiral Effect" >
+        </ListPreference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

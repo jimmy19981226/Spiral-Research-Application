@@ -1,0 +1,940 @@
+[
+  {
+    "latitude": 5.1478,
+    "longitude": 7.3567,
+    "name": "Aba Nigeria Temple",
+    "description": "Announcement: 2 April 2000\nGroundbreaking: 23 February 2002\nDedication: 7 August 2005",
+    "imageResourceId": "aba_nigeria_temple"
+  },
+  {
+    "latitude": 5.3623,
+    "longitude": -3.9768,
+    "name": "Abidjan Ivory Coast Temple",
+    "description": "Announcement: 5 April 2015\nGroundbreaking: 8 November 2018",
+    "imageResourceId": "abidjan_cote_divoire_temple"
+  },
+  {
+    "latitude": 5.6037,
+    "longitude": -0.186964,
+    "name": "Accra Ghana Temple",
+    "description": "Announcement: 16 February 1998\nGroundbreaking: 16 November 2001\nDedication: 11 January 2004",
+    "imageResourceId": "accra_ghana_temple"
+  },
+  {
+    "latitude": -34.8923,
+    "longitude": 138.635,
+    "name": "Adelaide Australia Temple",
+    "description": "Announcement: 17 March 1999\nGroundbreaking: 29 May 1999\nDedication: 15 June 2000",
+    "imageResourceId": "adelaide_australia_temple"
+  },
+  {
+    "latitude": 14.413,
+    "longitude": 121.0383,
+    "name": "Alabang Philippines Temple",
+    "description": "Announcement: 2 April 2017\nGroundbreaking: 4 June 2020",
+    "imageResourceId": "alabang_philippines_temple"
+  },
+  {
+    "latitude": 35.1678,
+    "longitude": -106.5251,
+    "name": "Albuquerque New Mexico Temple",
+    "description": "Announcement: 4 April 1997\nGroundbreaking: 20 June 1998\nDedication: 5 March 2000",
+    "imageResourceId": "albuquerque_new_mexico_temple"
+  },
+  {
+    "latitude": 61.101627,
+    "longitude": -149.840511,
+    "name": "Anchorage Alaska Temple",
+    "description": "Announcement: 4 October 1997\nGroundbreaking: 17 April 1998\nDedication: 9–10 January 1999\nRededication: 8 February 2004",
+    "imageResourceId": "anchorage_alaska_temple"
+  },
+  {
+    "latitude": -18.8539,
+    "longitude": 47.4785,
+    "name": "Antananarivo Madagascar Temple",
+    "description": "Announcement: 3 October 2021",
+    "imageResourceId": "no_image"
+  },
+  {
+    "latitude": -23.5719,
+    "longitude": -70.3942,
+    "name": "Antofagasta Chile Temple",
+    "description": "Announcement: 7 April 2019\nGroundbreaking: 27 November 2020",
+    "imageResourceId": "no_image"
+  },
+  {
+    "latitude": -13.8383,
+    "longitude": -171.7509,
+    "name": "Apia Samoa Temple",
+    "description": "Announcement: 15 October 1977\nGroundbreaking: 19 February 1981\nDedication: 5–7 August 1983\nRededication: 4 September 2005",
+    "imageResourceId": "apia_samoa_temple"
+  },
+  {
+    "latitude": -16.3754,
+    "longitude": -71.5387,
+    "name": "Arequipa Peru Temple",
+    "description": "Announcement: 6 October 2012\nGroundbreaking: 4 March 2017\nDedication: 15 December 2019",
+    "imageResourceId": "arequipa_peru_temple"
+  },
+  {
+    "latitude": -25.3033,
+    "longitude": -57.5657,
+    "name": "Asunción Paraguay Temple",
+    "description": "Announcement: 2 April 2000\nGroundbreaking: 3 February 2001\nDedication: 19 May 2002\nRededication: 3 November 2019",
+    "imageResourceId": "asuncion_paraguay_temple"
+  },
+  {
+    "latitude": 33.9319,
+    "longitude": -84.3626,
+    "name": "Atlanta Georgia Temple",
+    "description": "Announcement: 2 April 1980\nGroundbreaking: 7 March 1981\nDedication: 1–4 June 1983\nRededication: 14 November 1997, 1 May 2011",
+    "imageResourceId": "atlanta_georgia_temple"
+  },
+  {
+    "latitude": -36.99316,
+    "longitude": 174.89015,
+    "name": "Auckland New Zealand Temple",
+    "description": "Announcement: 7 October 2018\nGroundbreaking: 13 June 2020",
+    "imageResourceId": "auckland_new_zealand_temple"
+  },
+  {
+    "latitude": 30.5169,
+    "longitude": -97.7971,
+    "name": "Austin Texas Temple",
+    "description": "Announced: 3 April 2022",
+    "imageResourceId": "no_image"
+  },
+  {
+    "latitude": 5.1478,
+    "longitude": 7.3567,
+    "name": "Aba Nigeria Temple",
+    "description": "Announcement: 2 April 2000\nGroundbreaking: 23 February 2002\nDedication: 7 August 2005",
+    "imageResourceId": "aba_nigeria_temple"
+  },
+  {
+    "latitude": 10.698185265854661,
+    "longitude": 122.99053061022767,
+    "name": "Bacolod Philippines Temple",
+    "description": "Announcement: 5 October 2019\nGroundbreaking: 11 December 2021",
+    "imageResourceId": "bacolod_philippines_temple"
+  },
+  {
+    "latitude": -38.69058407842174,
+    "longitude": -62.2338538556748,
+    "name": "Bahia Blanca Argentina Temple",
+    "description": "Announcement: 5 April 2020\nGroundbreaking: 9 April 2022",
+    "imageResourceId": "bahia_blanca_argentina_temple"
+  },
+  {
+    "latitude": 35.3549833280961,
+    "longitude": -119.13774044326361,
+    "name": "Bakersfield California Temple",
+    "description": "Announcement: 2 April 2023",
+    "imageResourceId": "no_image"
+  },
+  {
+    "latitude": 13.749762600411321,
+    "longitude": 100.56312662191793,
+    "name": "Bangkok Thailand Temple",
+    "description": "Announcement: 5 April 2015\nGroundbreaking: 26 January 2019",
+    "imageResourceId": "bangkok_thailand_temple"
+  },
+  {
+    "latitude": 41.49045056053769,
+    "longitude": 2.0808519369518863,
+    "name": "Barcelona Spain Temple",
+    "description": "Announced: 3 April 2022",
+    "imageResourceId": "no_image"
+  },
+  {
+    "latitude": 11.017085400180319,
+    "longitude": -74.86159093631201,
+    "name": "Barranquilla Colombia Temple",
+    "description": "Announcement: 1 October 2011\nGroundbreaking: 20 February 2016\nDedication: 9 December 2018",
+    "imageResourceId": "barranquilla_colombia_temple"
+  },
+  {
+    "latitude": 30.362943248495572,
+    "longitude": -91.10773717037753,
+    "name": "Baton Rouge Louisiana Temple",
+    "description": "Announcement: 14 October 1998\nGroundbreaking: 8 May 1999\nDedication: 16 July 2000\nRededication: 17 November 2019",
+    "imageResourceId": "baton_rouge_louisiana_temple"
+  },
+  {
+    "latitude": -19.844339015620616,
+    "longitude": 34.862248817922136,
+    "name": "Beira Mozambique Temple",
+    "description": "Announcement: 4 April 2021",
+    "imageResourceId": "no_image"
+  },
+  {
+    "latitude": -1.3863675590049538,
+    "longitude": -48.45907762048797,
+    "name": "Belem Brazil Temple",
+    "description": "Announcement: 3 April 2016\nGroundbreaking: 17 August 2019\nDedication: 20 November 2022",
+    "imageResourceId": "belem_brazil_temple"
+  },
+  {
+    "latitude": -19.87999579756787,
+    "longitude": -43.977119362653205,
+    "name": "Belo Horizonte Brazil Temple",
+    "description": "Announcement: 4 April 2021",
+    "imageResourceId": "belo_horizonte_brazil_temple"
+  },
+  {
+    "latitude": 12.992872987157396,
+    "longitude": 77.70531129492537,
+    "name": "Bengaluru India Temple",
+    "description": "Announcement: 1 April 2018\nGroundbreaking: 2 December 2020",
+    "imageResourceId": "bengaluru_india_temple"
+  },
+  {
+    "latitude": 6.323228922940358,
+    "longitude": 5.632757337787359,
+    "name": "Benin City Nigeria Temple",
+    "description": "Announcement: 5 April 2020",
+    "imageResourceId": "no_image"
+  },
+  {
+    "latitude": 36.385177705134815,
+    "longitude": -94.18187541439885,
+    "name": "Bentonville Arkansas Temple",
+    "description": "Announcement: 5 October 2019\nGroundbreaking: 7 November 2020",
+    "imageResourceId": "bentonville_arkansas_temple"
+  },
+  {
+    "latitude": 47.002087939348925,
+    "longitude": 7.458710009219409,
+    "name": "Bern Switzerland Temple",
+    "description": "Announcement: 1 July 1952\nGroundbreaking: 5 August 1953\nDedication: 11–15 September 1955\nRededication: 23–25 October 1992",
+    "imageResourceId": "bern_switzerland_temple"
+  },
+  {
+    "latitude": 45.80071532556247,
+    "longitude": -108.6383691466424,
+    "name": "Billings Montana Temple",
+    "description": "Announcement: 30 August 1996\nGroundbreaking: 30 March 1998\nDedication: 20–21 November 1999",
+    "imageResourceId": "billings_montana_temple"
+  },
+  {
+    "latitude": 33.674690958298065,
+    "longitude": -86.82087432373186,
+    "name": "Birmingham Alabama Temple",
+    "description": "Announcement: 11 September 1998\nGroundbreaking: 9 October 1999\nDedication: 3 September 2000",
+    "imageResourceId": "birmingham_alabama_temple"
+  },
+  {
+    "latitude": 51.1869,
+    "longitude": -1.7849,
+    "name": "Birmingham United Kingdom Temple",
+    "description": "Announced: 3 April 2022",
+    "imageResourceId": "no_image"
+  },
+  {
+    "latitude": 46.83906773055011,
+    "longitude": -100.81340594475473,
+    "name": "Bismarck North Dakota Temple",
+    "description": "Announcement: 29 July 1998\nGroundbreaking: 17 October 1998\nDedication: 19 September 1999",
+    "imageResourceId": "bismarck_north_dakota_temple"
+  },
+  {
+    "latitude": 4.708148311143708,
+    "longitude": -74.0554108284164,
+    "name": "Bogota Colombia Temple",
+    "description": "Announcement: 7 April 1984\nGroundbreaking: 26 June 1993\nDedication: 24–26 April 1999",
+    "imageResourceId": "bogota_colombia_temple"
+  },
+  {
+    "latitude": 43.593848047829475,
+    "longitude": -116.27477132158418,
+    "name": "Boise Idaho Temple",
+    "description": "Announcement: 31 March 1982\nGroundbreaking: 18 December 1982\nDedication: 25–30 May 1984\nRededication: 29 May 1987, 18 November 2012",
+    "imageResourceId": "boise_idaho_temple"
+  },
+  {
+    "latitude": 42.41230929550218,
+    "longitude": -71.18712912030117,
+    "name": "Boston Massachusetts Temple",
+    "description": "Announcement: 30 September 1995\nGroundbreaking: 13 June 1997\nDedication: 1 October 2000",
+    "imageResourceId": "boston_massachusetts_temple"
+  },
+  {
+    "latitude": 40.88315626676571,
+    "longitude": -111.84626619098371,
+    "name": "Bountiful Utah Temple",
+    "description": "Announcement: 2 February 1990\nGroundbreaking: 2 May 1992\nDedication: 8–14 January 1995",
+    "imageResourceId": "bountiful_utah_temple"
+  },
+  {
+    "latitude": -15.747313557115652,
+    "longitude": -47.88058059393178,
+    "name": "Brasilia Brazil Temple",
+    "description": "Announcement: 2 April 2017\nGroundBreaking: 26 September 2020",
+    "imageResourceId": "brasilia_brazil_temple"
+  },
+  {
+    "latitude": -4.321288799827434,
+    "longitude": 15.261529244298705,
+    "name": "Brazzaville Republic of the Congo Temple",
+    "description": "Announced: 3 April 2022",
+    "imageResourceId": "no_image"
+  },
+  {
+    "latitude": 41.505800439057964,
+    "longitude": -112.01608320815957,
+    "name": "Brigham City Utah Temple",
+    "description": "Announcement: 3 October 2009\nGroundbreaking: 31 July 2010\nDedication: 23 September 2012",
+    "imageResourceId": "brigham_city_utah_temple"
+  },
+  {
+    "latitude": -27.48069511113349,
+    "longitude": 153.03416020680515,
+    "name": "Brisbane Australia Temple",
+    "description": "Announcement: 20 July 1998\nGroundbreaking: 26 May 2001\nDedication: 15 June 2003",
+    "imageResourceId": "brisbane_australia_temple"
+  },
+  {
+    "latitude": 50.8013,
+    "longitude": 4.4254,
+    "name": "Brussels Belgium Temple",
+    "description": "Announcement: 4 April 2021",
+    "imageResourceId": "no_image"
+  },
+  {
+    "latitude": 47.57033771832978,
+    "longitude": 19.006803265059634,
+    "name": "Budapest Hungary Temple",
+    "description": "Announcement: 7 April 2019",
+    "imageResourceId": "budapest_hungary_temple"
+  },
+  {
+    "latitude": -34.72642570380932,
+    "longitude": -58.5022034706948,
+    "name": "Buenos Aires Argentina Temple",
+    "description": "Announcement: 2 April 1980\nGroundbreaking: 20 April 1983\nDedication: 17–19 January 1986\nRededication: 9 September 2012",
+    "imageResourceId": "buenos_aires_argentina_temple"
+  },
+  {
+    "latitude": -34.72882409172169,
+    "longitude": -58.517492062858196,
+    "name": "Buenos Aires City Center Argentina Temple",
+    "description": "Announcement: 2 October 2022",
+    "imageResourceId": "buenos_aires_city_center_argentina_temple"
+  },
+  {
+    "latitude": 42.5273076046985,
+    "longitude": -113.76360103881454,
+    "name": "Burley Idaho Temple",
+    "description": "Announcement: 4 April 2021\nGroundbreaking: 4 June 2022",
+    "imageResourceId": "burley_idaho_temple"
+  },
+  {
+    "latitude": 35.2059,
+    "longitude": 129.0756,
+    "name": "Busan Korea Temple",
+    "description": "Announcement: 2 October 2022",
+    "imageResourceId": "busan_korea_temple"
+  },
+  {
+    "latitude": 8.479550772916118,
+    "longitude": 124.66157800541167,
+    "name": "Cagayan De Oro Philippines Temple",
+    "description": "Announcement: 1 April 2018",
+    "imageResourceId": "cagayan_de_oro_philippines_temple"
+  },
+  {
+    "latitude": 4.931818634280322,
+    "longitude": 8.340326502827672,
+    "name": "Calabar Nigeria Temple",
+    "description": "Announcement: 1 October 2023",
+    "imageResourceId": "calabar_nigeria_temple"
+  },
+  {
+    "latitude": 51.14100163581645,
+    "longitude": -114.23282188877933,
+    "name": "Calgary Alberta Temple",
+    "description": "Announcement: 4 October 2008\nGroundbreaking: 15 May 2010\nDedication: 28 October 2012",
+    "imageResourceId": "calgary_alberta_temple"
+  },
+  {
+    "latitude": 3.4869319400648697,
+    "longitude": -76.51962502895071,
+    "name": "Cali Colombia Temple",
+    "description": "Announcement: 4 April 2021",
+    "imageResourceId": "cali_colombia_temple"
+  },
+  {
+    "latitude": -22.896243291383037,
+    "longitude": -47.00045390122509,
+    "name": "Campinas Brazil Temple",
+    "description": "Announcement: 3 April 1997\nGroundbreaking: 1 May 1998\nDedication: 17 May 2002",
+    "imageResourceId": "campinas_brazil_temple"
+  },
+  {
+    "latitude": null,
+    "longitude": null,
+    "name": "Cancun Mexico Temple",
+    "description": "Announcement: 1 October 2023",
+    "imageResourceId": "cancun_mexico_temple"
+  },
+  {
+    "latitude": 5.116870476391217,
+    "longitude": -1.2839530144601343,
+    "name": "Cape Coast Ghana Temple",
+    "description": "Announcement: 1 October 2023",
+    "imageResourceId": "cape_coast_ghana_temple"
+  },
+  {
+    "latitude": -33.940933579091606,
+    "longitude": 18.480940300908358,
+    "name": "Cape Town South Africa Temple",
+    "description": "Announcement: 4 April 2021",
+    "imageResourceId": "cape_town_south_africa_temple"
+  },
+  {
+    "latitude": 10.471016390632425,
+    "longitude": -66.83671683208341,
+    "name": "Caracas Venezuela Temple",
+    "description": "Announcement: 30 September 1995\nGroundbreaking: 10 January 1999\nDedication: 20 August 2000",
+    "imageResourceId": "caracas_venezuela_temple"
+  },
+  {
+    "latitude": 49.1984993098616,
+    "longitude": -113.30901622139005,
+    "name": "Cardston Alberta Temple",
+    "description": "Announcement: 27 June 1913\nGroundbreaking: 9 November 1913\nDedication: 26–29 August 1923\nRededication: 2 July 1962\nRededication: 22–24 June 1991",
+    "imageResourceId": "cardston_alberta_temple"
+  },
+  {
+    "latitude": 42.809659587998496,
+    "longitude": -106.36095850917793,
+    "name": "Casper Wyoming Temple",
+    "description": "Announcement: 4 April 2021\nGroundbreaking: 9 October 2021",
+    "imageResourceId": "casper_wyoming_temple"
+  },
+  {
+    "latitude": 10.327822901880142,
+    "longitude": 123.89930775635547,
+    "name": "Cebu City Philippines Temple",
+    "description": "Announcement: 18 April 2006\nGroundbreaking: 14 November 2007\nDedication: 13 June 2010",
+    "imageResourceId": "cebu_city_philippines_temple"
+  },
+  {
+    "latitude": 37.67206054571148,
+    "longitude": -113.09556734319789,
+    "name": "Cedar City Utah Temple",
+    "description": "Announcement: 6 April 2013\nGroundbreaking: 8 August 2015\nDedication: 10 December 2017",
+    "imageResourceId": "cedar_city_utah_temple"
+  },
+  {
+    "latitude": null,
+    "longitude": null,
+    "name": "Charlotte North Carolina Temple",
+    "description": "Announcement: 2 April 2023",
+    "imageResourceId": "charlotte_north_carolina_temple"
+  },
+  {
+    "latitude": 42.08701261464427,
+    "longitude": -87.85898074306223,
+    "name": "Chicago Illinois Temple",
+    "description": "Announcement: 1 April 1981\nGroundbreaking: 13 August 1983\nDedication: 9–13 August 1985\nRededication: 8 October 1989",
+    "imageResourceId": "chicago_illinois_temple"
+  },
+  {
+    "latitude": null,
+    "longitude": null,
+    "name": "Chiclayo Peru Temple",
+    "description": "Announcement: 2 October 2022",
+    "imageResourceId": "chiclayo_peru_temple"
+  },
+  {
+    "latitude": 31.73657520674514,
+    "longitude": -106.4629021089994,
+    "name": "Ciudad Juarez Mexico Temple",
+    "description": "Announcement: 7 May 1998\nGroundbreaking: 9 January 1999\nDedication: 26–27 February 2000",
+    "imageResourceId": "ciudad_juarez_mexico_temple"
+  },
+  {
+    "latitude": 41.400085775364424,
+    "longitude": -81.63574463012225,
+    "name": "Cleveland Ohio Temple",
+    "description": "Announcement: 3 April 2022",
+    "imageResourceId": "cleveland_ohio_temple"
+  },
+  {
+    "latitude": 15.459021417414002,
+    "longitude": -90.36437077620961,
+    "name": "Coban Guatemala Temple",
+    "description": "Announcement: 5 October 2019\nGroundbreaking: 14 November 2020",
+    "imageResourceId": "coban_guatemala_temple"
+  },
+  {
+    "latitude": -17.363254962410828,
+    "longitude": -66.14629433791774,
+    "name": "Cochabamba Bolivia Temple",
+    "description": "Announcement: 13 January 1995\nGroundbreaking: 10 November 1996\nDedication: 30 April 2000",
+    "imageResourceId": "cochabamba_bolivia_temple"
+  },
+  {
+    "latitude": null,
+    "longitude": null,
+    "name": "Cody Wyoming Temple",
+    "description": "Announcement: 3 October 2021",
+    "imageResourceId": "cody_wyoming_temple"
+  },
+  {
+    "latitude": 30.305581152599128,
+    "longitude": -108.08149918572276,
+    "name": "Colonia Juarez Chihuahua Mexico Temple",
+    "description": "Announcement: 4 October 1997\nGroundbreaking: 7 March 1998\nDedication: 6–7 March 1999",
+    "imageResourceId": "colonia_juarez_chihuahua_mexico_temple"
+  },
+  {
+    "latitude": null,
+    "longitude": null,
+    "name": "Colorado Springs Colorado Temple",
+    "description": "Announcement: 1 October 2023",
+    "imageResourceId": "colorado_springs_colorado_temple"
+  },
+  {
+    "latitude": 46.227133626664546,
+    "longitude": -119.27382812017352,
+    "name": "Columbia River Washington Temple",
+    "description": "Announcement: 2 April 2000\nGroundbreaking: 28 October 2000\nDedication: 18 November 2001",
+    "imageResourceId": "columbia_river_washington_temple"
+  },
+  {
+    "latitude": null,
+    "longitude": null,
+    "name": "Columbia South Carolina Temple",
+    "description": "Announcement: 11 September 1998\nGroundbreaking: 5 December 1998\nDedication: 16–17 October 1999",
+    "imageResourceId": "columbia_south_carolina_temple"
+  },
+  {
+    "latitude": 39.99412116104272,
+    "longitude": -83.11195532461083,
+    "name": "Columbus Ohio Temple",
+    "description": "Announcement: 25 April 1998\nGroundbreaking: 12 September 1998\nDedication: 4–5 September 1999\nRededication: 4 June 2023",
+    "imageResourceId": "columbus_ohio_temple"
+  },
+  {
+    "latitude": -36.85099807952859,
+    "longitude": -73.0497363045968,
+    "name": "Concepcion Chile Temple",
+    "description": "Announcement: 3 October 2009\nGroundbreaking: 17 October 2015\nDedication: 28 October 2018",
+    "imageResourceId": "concepcion_chile_temple"
+  },
+  {
+    "latitude": 55.69287393798619,
+    "longitude": 12.534530569067403,
+    "name": "Copenhagen Denmark Temple",
+    "description": "Announcement: 17 March 1999\nGroundbreaking: 24 April 1999\nDedication: 23 May 2004",
+    "imageResourceId": "copenhagen_denmark_temple"
+  },
+  {
+    "latitude": -31.35855431939003,
+    "longitude": -64.2454011605644,
+    "name": "Cordoba Argentina Temple",
+    "description": "Announcement: 4 October 2008\nGroundbreaking: 30 October 2010\nDedication: 17 May 2015",
+    "imageResourceId": "cordoba_argentina_temple"
+  },
+  {
+    "latitude": 18.934948568369233,
+    "longitude": -99.22618244547277,
+    "name": "Cuernavaca Mexico Temple",
+    "description": "Announcement: 2 October 2022",
+    "imageResourceId": "cuernavaca_mexico_temple"
+  },
+  {
+    "latitude": null,
+    "longitude": null,
+    "name": "Culiacan Mexico Temple",
+    "description": "Announcement: 3 October 2021",
+    "imageResourceId": "culiacan_mexico_temple"
+  },
+  {
+    "latitude": -25.441170539562734,
+    "longitude": -49.34128983980008,
+    "name": "Curitiba Brazil Temple",
+    "description": "Announcement: 23 August 2002\nGroundbreaking: 10 March 2005\nDedication: 1 June 2008",
+    "imageResourceId": "curitiba_brazil_temple"
+  },
+  {
+    "latitude": -13.51240161535376,
+    "longitude": -71.99474685462965,
+    "name": "Cusco Peru Temple",
+    "description": "Announced: 3 April 2022",
+    "imageResourceId": "cusco_peru_temple"
+  },
+  {
+    "latitude": 32.914744439011955,
+    "longitude": -96.79460854623237,
+    "name": "Dallas Texas Temple",
+    "description": "Announcement: 1 April 1981\nGroundbreaking: 22 January 1983\nDedication: 19–24 October 1984\nRededication: 5 March 1989",
+    "imageResourceId": "dallas_texas_temple"
+  },
+  {
+    "latitude": 7.089215108706339,
+    "longitude": 125.58094757088047,
+    "name": "Davao Philippines Temple",
+    "description": "Announcement: 7 October 2018\nGroundbreaking: 14 November 2020",
+    "imageResourceId": "davao_philippines_temple"
+  },
+  {
+    "latitude": 39.56947904020194,
+    "longitude": -104.96328187444632,
+    "name": "Denver Colorado Temple",
+    "description": "Announcement: 31 March 1982\nGroundbreaking: 19 May 1984\nDedication: 24–28 October 1986",
+    "imageResourceId": "denver_colorado_temple"
+  },
+  {
+    "latitude": 40.573549168141305,
+    "longitude": -112.31071582845422,
+    "name": "Deseret Peak Utah Temple",
+    "description": "Announcement: 7 April 2019\nGroundbreaking: 15 May 2021",
+    "imageResourceId": "deseret_peak_utah_temple"
+  },
+  {
+    "latitude": 42.566887954008756,
+    "longitude": -83.22763751897251,
+    "name": "Detroit Michigan Temple",
+    "description": "Announcement: 10 August 1998\nGroundbreaking: 10 October 1998\nDedication: 23–24 October 1999",
+    "imageResourceId": "detroit_michigan_temple"
+  },
+  {
+    "latitude": 40.49632804339076,
+    "longitude": -111.83680134436875,
+    "name": "Draper Utah Temple",
+    "description": "Announcement: 2 October 2004\nGroundbreaking: 5 August 2006\nDedication: 20–22 March 2009",
+    "imageResourceId": "draper_utah_temple"
+  },
+  {
+    "latitude": 25.205237236847033,
+    "longitude": 55.273529342434884,
+    "name": "Dubai United Arab Emirates Temple",
+    "description": "Announcement: 5 April 2020",
+    "imageResourceId": "dubai_united_arab_emirates_temple"
+  },
+  {
+    "latitude": -29.707545755401505,
+    "longitude": 31.075008113868183,
+    "name": "Durban South Africa Temple",
+    "description": "Announcement: 1 October 2011\nGroundbreaking: 9 April 2016\nDedication: 16 February 2020",
+    "imageResourceId": "durban_south_africa_temple"
+  },
+  {
+    "latitude": 53.49021768588578,
+    "longitude": -113.56781280537436,
+    "name": "Edmonton Alberta Temple",
+    "description": "Announcement: 11 August 1998\nGroundbreaking: 27 February 1999\nDedication: 11–12 December 1999",
+    "imageResourceId": "edmonton_alberta_temple"
+  },
+  {
+    "latitude": null,
+    "longitude": null,
+    "name": "Eket Nigeria Temple",
+    "description": "Announcement: 2 October 2022",
+    "imageResourceId": "eket_nigeria_temple"
+  },
+  {
+    "latitude": 40.85324993582684,
+    "longitude": -115.74676155953458,
+    "name": "Elko Nevada Temple",
+    "description": "Announcement: 4 April 2021\nGroundbreaking: 7 May 2022",
+    "imageResourceId": "elko_nevada_temple"
+  },
+  {
+    "latitude": 39.36422073181227,
+    "longitude": -111.57453309729515,
+    "name": "Ephraim Utah Temple",
+    "description": "Announcement: 4 April 2021\nGroundbreaking: 27 August 2022",
+    "imageResourceId": "ephraim_utah_temple"
+  },
+  {
+    "latitude": 64.86073399650171,
+    "longitude": -147.78456714013763,
+    "name": "Fairbanks Alaska Temple",
+    "description": "Announcement: 1 October 2023",
+    "imageResourceId": "fairbanks_alaska_temple"
+  },
+  {
+    "latitude": 36.76952115270664,
+    "longitude": -108.16354931386138,
+    "name": "Farmington New Mexico Temple",
+    "description": "Announcement: 4 April 2021\nGroundbreaking: 30 April 2022",
+    "imageResourceId": "farmington_new_mexico_temple"
+  },
+  {
+    "latitude": 39.1465970351871,
+    "longitude": -121.63674188312194,
+    "name": "Feather River California Temple",
+    "description": "Announcement: 7 October 2018\nGroundbreaking: 18 July 2020\nDedication: 8 October 2023",
+    "imageResourceId": "feather_river_california_temple"
+  },
+  {
+    "latitude": 40.4945281010755,
+    "longitude": -105.03502313589863,
+    "name": "Fort Collins Colorado Temple",
+    "description": "Announcement: 2 April 2011\nGroundbreaking: 24 August 2013\nDedication: 16 October 2016",
+    "imageResourceId": "fort_collins_colorado_temple"
+  },
+  {
+    "latitude": 26.071143121835824,
+    "longitude": -80.3523947271239,
+    "name": "Fort Lauderdale Florida Temple",
+    "description": "Announcement: 3 October 2009\nGroundbreaking: 18 June 2011\nDedication: 4 May 2014",
+    "imageResourceId": "fort_lauderdale_florida_temple"
+  },
+  {
+    "latitude": 32.51755585533157,
+    "longitude": -97.35542265433462,
+    "name": "Fort Worth Texas Temple",
+    "description": "Announcement: 3 October 2021\nGroundbreaking: 28 October 2023",
+    "imageResourceId": "fort_worth_texas_temple"
+  },
+  {
+    "latitude": -3.7473730038519726,
+    "longitude": -38.45828971561541,
+    "name": "Fortaleza Brazil Temple",
+    "description": "Announcement: 3 October 2009\nGroundbreaking: 15 November 2011\nDedication: 2 June 2019",
+    "imageResourceId": "fortaleza_brazil_temple"
+  },
+  {
+    "latitude": 50.259328759130845,
+    "longitude": 8.644753753527358,
+    "name": "Frankfurt Germany Temple",
+    "description": "Announcement: 1 April 1981\nGroundbreaking: 1 July 1985\nDedication: 28–30 August 1987\nRededication: 20 October 2019",
+    "imageResourceId": "frankfurt_germany_temple"
+  },
+  {
+    "latitude": 8.387899029488665,
+    "longitude": -13.137232106236539,
+    "name": "Freetown Sierra Leone Temple",
+    "description": "Announcement: 5 October 2019\nGroundbreaking: 19 March 2022",
+    "imageResourceId": "freetown_sierra_leone_temple"
+  },
+  {
+    "latitude": 50.922843381958366,
+    "longitude": 13.325067516358875,
+    "name": "Freiberg Germany Temple",
+    "description": "Announcement: 9 October 1982\nGroundbreaking: 23 April 1983\nDedication: 29–30 June 1985\nRededication: 7 September 2002\nRededication: 4 September 2016",
+    "imageResourceId": "freiberg_germany_temple"
+  },
+  {
+    "latitude": 36.82886236911861,
+    "longitude": -119.84964165352511,
+    "name": "Fresno California Temple",
+    "description": "Announcement: 8 January 1999\nGroundbreaking: 20 March 1999\nDedication: 9 April 2000",
+    "imageResourceId": "fresno_california_temple"
+  },
+  {
+    "latitude": 33.572856555384504,
+    "longitude": 130.39344612335648,
+    "name": "Fukuoka Japan Temple",
+    "description": "Announcement: 7 May 1998\nGroundbreaking: 20 March 1999\nDedication: 11 June 2000",
+    "imageResourceId": "fukuoka_japan_temple"
+  },
+  {
+    "latitude": 33.29196168840216,
+    "longitude": -111.73514061538744,
+    "name": "Gilbert Arizona Temple",
+    "description": "Announcement: 26 April 2008\nGroundbreaking: 13 November 2010\nDedication: 2 March 2014",
+    "imageResourceId": "gilbert_arizona_temple"
+  },
+  {
+    "latitude": null,
+    "longitude": null,
+    "name": "Goiania Brazil Temple",
+    "description": "Announcement: 1 October 2023",
+    "imageResourceId": "goiania_brazil_temple"
+  },
+  {
+    "latitude": 39.10196132116959,
+    "longitude": -108.54991929688924,
+    "name": "Grand Junction Colorado Temple",
+    "description": "Announcement: 4 April 2021\nGroundbreaking: 16 April 2022",
+    "imageResourceId": "grand_junction_colorado_temple"
+  },
+  {
+    "latitude": 42.91997475600256,
+    "longitude": -85.55732778703663,
+    "name": "Grand Rapids Michigan Temple",
+    "description": "Announcement: 2 October 2022",
+    "imageResourceId": "grand_rapids_michigan_temple"
+  },
+  {
+    "latitude": null,
+    "longitude": null,
+    "name": "Greater Guatemala City Guatemala Temple",
+    "description": "Announcement: 4 April 2021",
+    "imageResourceId": "greater_guatemala_city_guatemala_temple"
+  },
+  {
+    "latitude": 20.66206189523264,
+    "longitude": -103.42164658113587,
+    "name": "Guadalajara Mexico Temple",
+    "description": "Announcement: 14 April 1999\nGroundbreaking: 12 June 1999\nDedication: 29 April 2001",
+    "imageResourceId": "guadalajara_mexico_temple"
+  },
+  {
+    "latitude": 14.590475092866743,
+    "longitude": -90.47042389042731,
+    "name": "Guatemala City Guatemala Temple",
+    "description": "Announcement: 1 April 1981\nGroundbreaking: 12 September 1982\nDedication: 14 December 1984",
+    "imageResourceId": "guatemala_city_guatemala_temple"
+  },
+  {
+    "latitude": 14.590475092866743,
+    "longitude": -90.47042389042731,
+    "name": "Guatemala LDS Temple",
+    "description": "Announcement: 1 April 1981\nGroundbreaking: 12 September 1982\nDedication: 14–16 December 1984",
+    "imageResourceId": "guatemala_lds_temple"
+  },
+  {
+    "latitude": -2.1553310056308073,
+    "longitude": -79.9025455617091,
+    "name": "Guayaquil Ecuador Temple",
+    "description": "Announcement: 31 March 1982\nGroundbreaking: 10 August 1996\nDedication: 1–2 August 1999",
+    "imageResourceId": "guayaquil_ecuador_temple"
+  },
+  {
+    "latitude": -17.802706145894206,
+    "longitude": 31.085289701734784,
+    "name": "Harare Zimbabwe Temple",
+    "description": "Announcement: 3 April 2016\nGroundbreaking: 12 December 2020",
+    "imageResourceId": "harare_zimbabwe_temple"
+  },
+  {
+    "latitude": 40.291658990922016,
+    "longitude": -76.78872047850018,
+    "name": "Harrisburg Pennsylvania Temple",
+    "description": "Announcement: 2 April 2023",
+    "imageResourceId": "harrisburg_pennsylvania_temple"
+  },
+  {
+    "latitude": 41.738494157540224,
+    "longitude": -72.8422973574901,
+    "name": "Hartford Connecticut Temple",
+    "description": "Announcement: 2 October 2010\nGroundbreaking: 17 August 2013\nDedication: 20 November 2016",
+    "imageResourceId": "hartford_connecticut_temple"
+  },
+  {
+    "latitude": 40.50703515960792,
+    "longitude": -111.38931244223261,
+    "name": "Heber Valley Utah Temple",
+    "description": "Announcement: 3 October 2021\nGroundbreaking: 8 October 2022",
+    "imageResourceId": "heber_valley_utah_temple"
+  },
+  {
+    "latitude": 46.63410837821903,
+    "longitude": -112.01611894801104,
+    "name": "Helena Montana Temple",
+    "description": "Announcement: 4 April 2021\nGroundbreaking: 26 June 2021\nDedication: 18 June 2023",
+    "imageResourceId": "helena_montana_temple"
+  },
+  {
+    "latitude": 60.22568782593442,
+    "longitude": 24.78503780579895,
+    "name": "Helsinki Finland Temple",
+    "description": "Announcement: 2 April 2000\nGroundbreaking: 29 March 2003\nDedication: 22 October 2006",
+    "imageResourceId": "helsinki_finland_temple"
+  },
+  {
+    "latitude": 29.103368057689416,
+    "longitude": -110.94443576361,
+    "name": "Hermosillo Sonora Mexico Temple",
+    "description": "Announcement: 20 July 1998\nGroundbreaking: 5 December 1998\nDedication: 27 February 2000",
+    "imageResourceId": "hermosillo_sonora_mexico_temple"
+  },
+  {
+    "latitude": 22.341351967081504,
+    "longitude": 114.17982436483337,
+    "name": "Hong Kong China Temple",
+    "description": "Announcement: 3 October 1992\nGroundbreaking: 22 January 1994\nDedication: 26–27 May 1996\nRededication: 19 June 2022",
+    "imageResourceId": "hong_kong_china_temple"
+  },
+  {
+    "latitude": 30.000490016246193,
+    "longitude": -95.53173707014437,
+    "name": "Houston Texas Temple",
+    "description": "Announcement: 30 September 1997\nGroundbreaking: 13 June 1998\nDedication: 26–27 August 2000\nRededication: 22 April 2018",
+    "imageResourceId": "houston_texas_temple"
+  },
+  {
+    "latitude": -12.019752056075369,
+    "longitude": -75.17336369364622,
+    "name": "Huancayo Peru Temple",
+    "description": "Announcement: 1 October 2023",
+    "imageResourceId": "huancayo_peru_temple"
+  },
+  {
+    "latitude": 15.32683784573099,
+    "longitude": -91.48530178506019,
+    "name": "Huehuetenango Guatemala Temple",
+    "description": "Announcement: 2 October 2022",
+    "imageResourceId": "huehuetenango_guatemala_temple"
+  },
+  {
+    "latitude": 43.50062842828945,
+    "longitude": -112.0366802206164,
+    "name": "Idaho Falls Idaho Temple",
+    "description": "Announcement: 3 March 1937\nGroundbreaking: 19 December 1939\nDedication: 23–25 September 1945\nRededication: 4 June 2017",
+    "imageResourceId": "idaho_falls_idaho_temple"
+  },
+  {
+    "latitude": null,
+    "longitude": null,
+    "name": "Iloilo Philippines Temple",
+    "description": "Announcement: 2 April 2023",
+    "imageResourceId": "iloilo_philippines_temple"
+  },
+  {
+    "latitude": 39.955842194178416,
+    "longitude": -86.1641687509755,
+    "name": "Indianapolis Indiana Temple",
+    "description": "Announcement: 2 October 2010\nGroundbreaking: 29 September 2012\nDedication: 23 August 2015",
+    "imageResourceId": "indianapolis_indiana_temple"
+  },
+  {
+    "latitude": -3.7582652549963456,
+    "longitude": -73.25917041976484,
+    "name": "Iquitos Peru Temple",
+    "description": "Announcement: 2 April 2023",
+    "imageResourceId": "iquitos_peru_temple"
+  },
+  {
+    "latitude": null,
+    "longitude": null,
+    "name": "Jacksonville Florida Temple",
+    "description": "Announcement: 2 October 2022",
+    "imageResourceId": "jacksonville_florida_temple"
+  },
+  {
+    "latitude": null,
+    "longitude": null,
+    "name": "Jakarta Indonesia Temple",
+    "description": "Announcement: 2 April 2023",
+    "imageResourceId": "jakarta_indonesia_temple"
+  },
+  {
+    "latitude": -7.122563096125392,
+    "longitude": -34.82124912730413,
+    "name": "João Pessoa Brazil Temple",
+    "description": "Announcement: 1 October 2023",
+    "imageResourceId": "joao_pessoa_brazil_temple"
+  },
+  {
+    "latitude": -26.177954266741647,
+    "longitude": 28.04045259029736,
+    "name": "Johannesburg South Africa Temple",
+    "description": "Announcement: 1 April 1981\nGroundbreaking: 27 November 1982\nDedication: 24–25 August 1985",
+    "imageResourceId": "johannesburg_south_africa_temple"
+  },
+  {
+    "latitude": 40.56663302691735,
+    "longitude": -111.93057611502415,
+    "name": "Jordan River Utah Temple",
+    "description": "Announcement: 3 February 1978\nGroundbreaking: 9 June 1979\nDedication: 16–20 November 1981\nRededication: 20 May 2018",
+    "imageResourceId": "jordan_river_utah_temple"
+  }
+]

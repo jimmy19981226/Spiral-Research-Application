@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_spiral"
+        android:title="Spiral"
+        android:icon="@drawable/ic_spiral"/>
+
+    <item
+        android:id="@+id/navigation_map"
+        android:title="Map"
+        android:icon="@drawable/ic_map"
+        android:checked="true"/>
+
+    <item
+        android:id="@+id/navigation_list"
+        android:title="List"
+        android:icon="@drawable/ic_list"/>
+</menu>

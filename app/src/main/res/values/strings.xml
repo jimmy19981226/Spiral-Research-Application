@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">TempleMaps</string>
+
+
+    <string-array name="SpiralEffect">
+        <item>Default</item>
+        <item>Spin</item>
+        <item>Zoom</item>
+        <item>3D</item>
+    </string-array>
+    <string-array name="SpiralEffect_value">
+        <item>static</item>
+        <item>spin</item>
+        <item>zoom</item>
+        <item>threeD</item>
+    </string-array>
+
+    <string name="SpiralEffectTitle">Spiral Effect</string>
+    <string name="SpiralEffectSummary">Select an animation style for the spiral</string>
+
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+
+    <string name="years_of_temples">Years of Temples:</string>
+    <string name="welcome_to_view">Welcome to View</string>
+    <string name="lds_temples">LDS Temples!</string>
+    <string name="future_temples">Future Temples</string>
+
+    <string name="about_content_one">Programming by Tsz Chin Lam, Abigail Hyde, and Litian Zhang under the supervision of Dr. Geoffrey Draper at Brigham Young University--Hawaii.</string>
+    <string name="about_content_two">Visit the app\'s website</string>
+    <string name="about_content_three">Temple photos are copyrighted by Intellectual Reserve, Inc. Used by permission.</string>
+    <string name="about_content_four">This app is a research project funded by Brigham Young University--Hawaii, however the contents are the responsibility of its developers. This app is not an \"official\" publication of the Church of Jesus Christ of Latter-day Saints.</string>
+
+    <string name="return_button">Dismiss</string>
+    <string name="website_button">Website</string>
+
+    <string-array name="language_prefs">
+        <item>Chinese</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="language_prefs_value">
+        <item>chinese</item>
+        <item>english</item>
+    </string-array>
+
+    <string name="language_prefs_title">Language</string>
+    <string name="language_prefs_summary">set display language</string>
+
+    <string name="show_label_title">Temple Label</string>
+    <string name="show_label_on">Temple names will show for larger temples</string>
+    <string name="show_label_off">Temple names will not show for any temples</string>
+    <string name="temples_under_construction">Temples under construction</string>
+    <string name="view_temples_dedicated_In">View temples dedicated in</string>
+    <string name="view">View</string>
+    <string name="you_didnt_pick_any_year">No year selected</string>
+    <string name="year">Year</string>
+    <string name="first_temple">"First temple: "</string>
+    <string name="app_website_link">http://latterdaytemples.litianzhang.com/</string>
+    <string name="kirtland_temple_is_the_oldest_temple">The Kirtland Temple is the oldest temple</string>
+    <string name="dubai_temple_is_the_most_recent_temple">This temple is the most recent temple</string>
+    <string name="type_in_here_to_search_a_temple">Type in here to search for a temple</string>
+
+
+</resources>
