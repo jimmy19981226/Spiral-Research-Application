@@ -31,7 +31,6 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Filter;
 import android.widget.Filterable;
-import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -63,8 +62,6 @@ public class SpiralActivity extends AppCompatActivity {
     private TempleView tv;
     public SeekBar slider;
     public Context mContext;
-    private int oldProgress;
-    //not using Timer to make slider smooth anymore
     private MyTimer timA;
     public int progress;
     public int lastProgress;
@@ -96,7 +93,6 @@ public class SpiralActivity extends AppCompatActivity {
 
         @Override
         public void handleMessage(Message m) {
-            //Log.d("My Timer here ", "My Timer ****************" + " ");
 
             if (tv.touchDownOnScreenTempleView == TRUE) {
                 progress = lastProgress;
@@ -126,7 +122,6 @@ public class SpiralActivity extends AppCompatActivity {
                     tv.setDegree((int) (lastProgress));
                 }
                 tv.invalidate();
-                difference --;
                 stop = 0;
             } else {
                 if (stop == 0) {
@@ -136,10 +131,6 @@ public class SpiralActivity extends AppCompatActivity {
                 }
                 stop ++;
             }
-
-            //very helper log here, display current slider progress and it's target progress
-            //Log.d("progress is ", progress + " ");
-            //Log.d("last progress is ", lastProgress + " ");
 
             sendMessageDelayed(obtainMessage(0), 1);
         }
@@ -166,15 +157,6 @@ public class SpiralActivity extends AppCompatActivity {
                 if (id == R.id.navigation_spiral) {
                     Log.d("Navigation", "Spiral selected");
                     // Already in the map activity, do nothing
-                    return true;
-                } else if (id == R.id.navigation_map) {
-                    Log.d("Navigation", "Map selected");
-                    startActivity(new Intent(SpiralActivity.this, MainActivity.class));
-                    return true;
-                } else if (id == R.id.navigation_list) {
-                    Log.d("Navigation", "List selected");
-                    // Start the ListActivity
-                    startActivity(new Intent(SpiralActivity.this, ListAct.class));
                     return true;
                 }
                 return false;
@@ -430,15 +412,6 @@ public class SpiralActivity extends AppCompatActivity {
         tv.orientationJustChanged(TRUE);
         tv.resetStaticCoordinatesGet();
         Log.d("1"," -- onConfigurationChanged");
-//        if(newConfig.orientation == ActivityInfo.SCREEN_ORIENTATION_PORTRAIT){
-//            //切换到竖屏
-//            tv.orientationJustChanged(TRUE);
-//            //Log.d("1"," -- onConfigurationChanged  可以在竖屏方向 to do something");
-//        }else{
-//            //切换到横屏
-//            tv.orientationJustChanged(TRUE);
-//            //Log.d("1"," -- onConfigurationChanged  可以在横屏方向 to do something");
-//        }
         if (searchDialog != null) {
             setDialogSize(searchDialog);
         }
@@ -534,7 +507,6 @@ public class SpiralActivity extends AppCompatActivity {
                 return false;
             }
 
-            // 当搜索内容改变时触发该方法
             @Override
             public boolean onQueryTextChange(String newText) {
                 Filter filter = ((Filterable) allTempleNamesAdapter).getFilter();
@@ -698,12 +670,8 @@ public class SpiralActivity extends AppCompatActivity {
             temporary[i] = allYearsWithoutDuplicates.get(i);
         }
 
-        //Toast.makeText(mContext, "temporary length is: " + temporary.length + "", Toast.LENGTH_SHORT).show();
-        //Toast.makeText(mContext, "allYeas size: " + tv.allYears.size() + "", Toast.LENGTH_SHORT).show();
-        //Toast.makeText(mContext, temporary[100] + "", Toast.LENGTH_SHORT).show();
-
-        yearPickerPicker.setDisplayedValues(temporary); //设置文字
-        yearPickerPicker.setMaxValue(temporary.length - 1); //设置最大值
+        yearPickerPicker.setDisplayedValues(temporary);
+        yearPickerPicker.setMaxValue(temporary.length - 1);
         //yearPickerPicker.setValue(0);
         yearPickerPicker.setValue(selectedYearIndex);
         selectedYear = "2020"; // we need this here, other wise, selectedYear is null when first time open year yearPickerPicker dialog and not moving the yearPickerPicker when passed in TempleView through method.
@@ -819,23 +787,6 @@ public class SpiralActivity extends AppCompatActivity {
         layoutParams.weight = 10;
         btnPositive.setLayoutParams(layoutParams);
         btnNegative.setLayoutParams(layoutParams);
-
-        // these will override the onclick above
-//        dialog.getButton(AlertDialog.BUTTON_POSITIVE).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                //do something
-//                Toast.makeText(mContext, "click on yes", Toast.LENGTH_SHORT).show();
-//            }
-//        });
-//        dialog.getButton(AlertDialog.BUTTON_NEGATIVE).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                //do something
-//                Toast.makeText(mContext, "click on no", Toast.LENGTH_SHORT).show();
-//
-//            }
-//        });
 
     }
 

@@ -39,9 +39,6 @@ public class PrefsActivity extends PreferenceActivity {
         screen.addPreference(show_label);
 
         setPreferenceScreen(screen);
-
-        //Log.d("Prefs ", "preference screen here ");
-
     }
 
     public static String getSpiralEffectPref(Context c) {

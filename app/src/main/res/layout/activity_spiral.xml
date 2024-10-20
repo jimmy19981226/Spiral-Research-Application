@@ -204,8 +204,7 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/bottom_nav"
-        app:menu="@menu/bottom_nav_menu" />
+        android:background="@drawable/bottom_nav" />
 
 
 </RelativeLayout>

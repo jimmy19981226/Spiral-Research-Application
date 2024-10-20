@@ -161,7 +161,6 @@ public class TempleView extends View {
 
     public void setDegree(int sliderP) {
         theta = sliderP;
-        //Log.d("theta is ", theta + " ***************************************************************************************");
     }
 
     public float getLastProgress() {
@@ -189,37 +188,6 @@ public class TempleView extends View {
         sliderMoving = s;
     }
 
-//    public void readLinksFile() {
-//        try {
-//            InputStream allTempleLinksFile =  getContext().getResources().openRawResource(R.raw.all_temple_links);
-//            if (allTempleLinksFile != null)
-//            {
-//                InputStreamReader ir = new InputStreamReader(allTempleLinksFile);
-//                BufferedReader br = new BufferedReader(ir);
-//                String line;
-//                //read each line
-//                int atThisLine = 0;
-//                while (( line = br.readLine()) != null) {
-//                    allTempleLinks.add(line+"\n");
-//                    if (atThisLine < templeObjects.size()) {
-//                        templeObjects.get(atThisLine).setLink(line+"\n");
-//                        atThisLine ++;
-//                    }
-//                }
-//                allTempleLinksFile.close();
-//            }
-//        }
-//        catch (java.io.FileNotFoundException e)
-//        {
-//            Log.d("TestFile", "The File doesn't not exist.");
-//        }
-//        catch (IOException e)
-//        {
-//            Log.d("TestFile", e.getMessage());
-//        }
-//        //Log.d("allTempleLinks is ", allTempleLinks.get(1) + "");
-//    }
-
     public void readOneInfoFile(int id) {
         try {
             InputStream oneTempleInfoFile =  this.getResources().openRawResource(id);
@@ -244,75 +212,6 @@ public class TempleView extends View {
             Log.d("TestFile", e.getMessage());
         }
     }
-
-//    public void readInfoFile() {
-//        try {
-//            InputStream allTempleInfoFile =  this.getResources().openRawResource(R.raw.temple_info);
-//            if (allTempleInfoFile != null)
-//            {
-//                InputStreamReader ir = new InputStreamReader(allTempleInfoFile);
-//                BufferedReader br = new BufferedReader(ir);
-//                String line;
-//                //read each line
-//                while (( line = br.readLine()) != null) {
-//                    allTempleInfo.add(line+"\n");
-//                }
-//                allTempleInfoFile.close();
-//                allYears = getAllYearsFromAllTempleInfo(allTempleInfo);
-//                allTempleNames = getAllTempleNamesFromAllTempleInfo(allTempleInfo);
-//            }
-//        }
-//        catch (java.io.FileNotFoundException e)
-//        {
-//            Log.d("TestFile", "The File doesn't not exist.");
-//        }
-//        catch (IOException e)
-//        {
-//            Log.d("TestFile", e.getMessage());
-//        }
-//
-//    }
-
-//    public ArrayList<String> getAllYearsFromAllTempleInfo(ArrayList<String> allTempleInfoPassIn) {
-//        ArrayList<String> temporary = new ArrayList<>();
-////        for (int i = 0; i < temples.size(); i++) {
-//        for (int i = 0; i < templeObjects.size(); i++) { // more OO
-//            String year = allTempleInfo.get(i * 3 + 2) ;
-////            Locale curLocale = getResources().getConfiguration().locale;
-////            if (curLocale.equals(Locale.SIMPLIFIED_CHINESE)) {
-////                // do nothing //中文
-////                year = year;
-////            } else {
-////                year = year.substring(year.length()-5);
-////                //英文
-////            }
-//
-////            String curLan = getResources().getConfiguration().locale.getLanguage();
-////            if (curLan.equals("zh")) {
-////                // do nothing //中文
-////                year = year;
-////            } else {
-////                year = year.substring(year.length()-5);
-////                //英文
-////            }
-//
-//
-//
-//
-//            temporary.add(year.substring(0,4));
-//        }
-//        return temporary;
-//    }
-//
-//    public ArrayList<String> getAllTempleNamesFromAllTempleInfo(ArrayList<String> allTempleInfoPassIn) {
-//        ArrayList<String> temporary = new ArrayList<>();
-//        for (int i = 0; i < templeObjects.size(); i++) { // more OO
-//            String name = allTempleInfo.get(i * 3 + 0) ;
-//            temporary.add(name);
-//        }
-//        return temporary;
-//    }
-
 
 
     @RequiresApi(api = Build.VERSION_CODES.O)
@@ -424,13 +323,8 @@ public class TempleView extends View {
             long upTime = System.currentTimeMillis();
             long period = upTime - downTime;
             touchDownOnScreenTempleView = FALSE;
-            //helper--time test
-            //Long timeLong = System.currentTimeMillis();
-            //String time = String.valueOf(timeLong);
-            //Toast.makeText(getContext(), "current time is " + time, Toast.LENGTH_SHORT).show();
             float x = m.getX();
             float y = m.getY();
-            //Toast.makeText(getContext(), "touched a circle when UP at " + x + " " + y, Toast.LENGTH_SHORT).show();
 
             if (y < 9 * screenHeight / 10 && period < 100) {
                 boolean singleTempleViewOpened = false;
@@ -445,13 +339,9 @@ public class TempleView extends View {
                     float distanceToCurrentCoordinate = (float) (Math.sqrt(Math.pow(Math.abs(x - eachXCoordinate), 2) + Math.pow(Math.abs(y - eachYCoordinate), 2)));
 
                     if (distanceToCurrentCoordinate < eachSize) {
-                        //Toast.makeText(getContext(), "touched a circle at " + x + " " + y + " and eachIndex here is " + eachIndex , Toast.LENGTH_SHORT).show();
-                        //Toast.makeText(getContext(), "how many onScreenTemples last time? " + onScreenTemples.size(), Toast.LENGTH_SHORT).show();
-                        //Log.d("singleTempleViewOpen? ", singleTempleViewOpened + "");
                         if (singleTempleViewOpened == false) {
                             if (eachIndex <= templeObjects.size()) {
                                 singleTempleViewOpened = true;
-                                //Log.d("eachIndex is ", eachIndex + " when click on circle");
                                 singleTempleDialog();
                             } else {
                                 //no link
@@ -503,36 +393,25 @@ public class TempleView extends View {
         }
 
         singleTempleImageView.setPadding(0,0,0,0);
-        //singleTempleImageView.setBackgroundColor(Color.RED);
 
         // milestone dates
         oneTempleInfo = templeObjects.get(eachIndex).getDescription();
 
         final TextView singleTempleTextView = new TextView(getContext());
         singleTempleTextView.setText(oneTempleInfo);
-        //singleTempleTextView.setBackgroundColor(Color.BLUE);
         singleTempleTextView.setGravity(Gravity.CENTER);
 
         ScrollView sv = new ScrollView(getContext());
-        //sv.setPadding(100,100,100,100);
         sv.addView(singleTempleTextView);
 
-        // here is where we get templeUrl, to avoid the eachIndex change error
-        //final String templeUrl = allTempleLinks.get(eachIndex);
-        realEachIndex = eachIndex; // we do this because each index is changing for some reason later...
         templeUrl = templeObjects.get(realEachIndex).link;
 
         final TextView singleTempleDialogTitleView = new TextView(getContext());
-//        singleTempleDialogTitleView.setText(allTempleInfo.get(realEachIndex*3));
         singleTempleDialogTitleView.setText(templeObjects.get(realEachIndex).getName());
         singleTempleDialogTitleView.setTextSize(20);
         singleTempleDialogTitleView.setPadding(0,20,0,0);
         singleTempleDialogTitleView.setTextColor(Color.BLACK);
         singleTempleDialogTitleView.setGravity(Gravity.CENTER);
-        //singleTempleDialogTitleView.setHeight((int)(Math.min(screenWidth, screenHeight) * 0.1));
-        //singleTempleDialogTitleView.setMaxLines(1);
-        //singleTempleDialogTitleView.setAutoSizeTextTypeWithDefaults(TextView.AUTO_SIZE_TEXT_TYPE_UNIFORM);
-        //singleTempleDialogTitleView.setPadding(1, 1, 1, 1);
         singleTempleDialogTitleView.setHeight((int)(Math.min(screenWidth, screenHeight) * 0.15));
         //singleTempleDialogTitleView.setMovementMethod(ScrollingMovementMethod.getInstance());
 
@@ -548,7 +427,6 @@ public class TempleView extends View {
             public boolean onTouch(View view, MotionEvent motionEvent) {
                 if(motionEvent.getAction() == MotionEvent.ACTION_DOWN){
                     // do nothing
-                    //Toast.makeText(getContext(), realEachIndex.toString(), Toast.LENGTH_SHORT).show();
                 }else if(motionEvent.getAction() == MotionEvent.ACTION_UP){
                     if (realEachIndex < templeObjects.size() - 1) {
                         if (System.currentTimeMillis() - timeStamp[0] > 1550) {
@@ -599,7 +477,6 @@ public class TempleView extends View {
                             }
                             singleTempleImageView.updateThreeTemplesBitmapIds(allLargeImageIds.get(realEachIndex), lastTempleId, allLargeImageIds.get(realEachIndex + 1));
                             templeUrl = templeObjects.get(realEachIndex).link;
-//                            singleTempleDialogTitleView.setText(allTempleInfo.get(realEachIndex*3));
                             singleTempleDialogTitleView.setText(allTempleNames.get(realEachIndex));
                             oneTempleInfo = "";
                             readOneInfoFile(allTempleInfoFileIds.get(realEachIndex));
@@ -625,8 +502,6 @@ public class TempleView extends View {
         sv.setBackgroundColor(Color.parseColor("#ffffff"));
 
         lnl.addView(lnlH);
-        //lnlH.setBackgroundColor(Color.GREEN);
-        //lnl.addView(sv);
 
         singleTempleTextView.setBackgroundColor(Color.parseColor("#ffffff"));
         ((ViewGroup)singleTempleTextView.getParent()).removeView(singleTempleTextView);
@@ -685,14 +560,6 @@ public class TempleView extends View {
         singleTempleDialog.getButton(AlertDialog.BUTTON_POSITIVE).setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                //singleTempleDialog.dismiss();
-                //singleTempleDialog stays when click on website button
-
-                // for some reason, i don't why, but each index is changed in here,
-                // so we get templeUrl before this, according to the correct eachIndex
-                //String templeUrl = allTempleLinks.get(eachIndex);
-                //Log.d("eachIndex is ", eachIndex + " when click on website button");
-                //Log.d("templeUrl is ", templeUrl + "");
 
                 if (templeUrl.equals("" + "\n")) {
                     AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
@@ -788,12 +655,6 @@ public class TempleView extends View {
             getCoordinates();
             //getSizes();
             orientationJustChanged = FALSE;
-            //Log.d("coordinates and sizes ", " just reset ");
-            //Log.d("orChanged coorSize ", " ++++++++++++++++ "
-                    //+ spiralCoordinates.size() + " "
-                    //+ sizes.size());
-            //Log.d("spiralCoordinates", spiralCoordinates + " ");
-            //Log.d("sizes", sizes + " ");
         }
         //when app first launch this got called.
         if (coordinatesAndSizesUpdated == FALSE) {
@@ -801,13 +662,6 @@ public class TempleView extends View {
             getCoordinates();
             getSizes();
             coordinatesAndSizesUpdated = TRUE;
-            //Log.d("launch coorSize ", " ++++++++++++++++ "
-                    //+ spiralCoordinates.size() + " "
-                    //+ sizes.size());
-            //Log.d("spiralCoordinates", spiralCoordinates + " ");
-            //Log.d("sizes", sizes + " ");
-            //Log.d("screenWidth", screenWidth + " ");
-            //Log.d("screenHeight", screenHeight + " ");
         }
 
 
@@ -842,10 +696,6 @@ public class TempleView extends View {
             getCoordinatesThreeD();
         }
 
-        //c.drawColor(Color.parseColor("#66ccff"));
-
-        //Temple View Background color
-        //c.drawColor(Color.parseColor("#24292b"));
         c.drawColor(Color.parseColor("#FFFFFF"));
 
         //we just want to load the images once, we don't have to load it every time when we re-draw. otherwise the program is gonna be so slow
@@ -864,56 +714,20 @@ public class TempleView extends View {
 
             ResourceCache resourceCache = new ResourceCache(getContext(), temp);
 
-
-//            ImageCache.init(getResources(), temp, screenHeight);
-//            allLargeImageIds = ImageCache.getAllImageIds();
-
             allLargeImageIds = resourceCache.templeLargeDrawableIds;
-
-//            allTempleInfoFileIds = ImageCache.getAllTempleInfoFileIds();
-
-//            for(int i=0; i<allLargeImageIds.size(); i++) {
-//                allTempleInfoFileIds.add(R.raw.albuquerque_temple);
-//            }
 
             allTempleInfoFileIds = resourceCache.allTempleInfoFileIds;
 
 
-            //temples = ImageCache.getTemplesList();
-
-            // replacing this line
-//            templeObjects = ImageCache.getTempleObjectsList(); // more OO
-            // with
             templeObjects = resourceCache.templeObjects;
 
-//            Log.d("old templeObjects size", templeObjects.size() + "");
-
-//            readLinksFile();
-
-//            allTempleLinks = resourceCache.allTempleLinks;
-
-//            readInfoFile();
             allTempleNames = resourceCache.templeNames;
             allYears = resourceCache.templeYears;
-//            Log.d("allyears", allYears.toString());
-//            Log.d("allnames", allTempleNames.toString());
-
-
-//            for (Temple t: templeObjects) {
-//                t.setLink(allTempleLinks.get(templeObjects.indexOf(t)));
-//            }
 
             yearDisplayPaint.setColor(Color.parseColor("#000000"));
             yearDisplayPaint.setStyle(Paint.Style.FILL);
             yearDisplayPaint.setTextAlign(Paint.Align.CENTER);
         }
-
-        //helper
-        //c.drawText("Screen Width and Height are " + screenWidth + " " + screenHeight, 0, screenHeight - 100, bluePaint);
-        //c.drawText("how many temples " + temples.size() + " ", 0, screenHeight - 200, redPaint);
-        //c.drawRect(0,3 * screenHeight/4, screenWidth, 3 * screenHeight/4 + 10, bluePaint);
-        //the middle circle image is here ==============================================
-        //drawMiddleCircle(c);
 
         placeAllCircles(c);
 
@@ -943,29 +757,15 @@ public class TempleView extends View {
         thisTempleLabelPaintNoImage.setStyle(Paint.Style.FILL);
         thisTempleLabelPaintNoImage.setTextSize((int)(newCurrentTempleRadius / 4));
         thisTempleLabelPaintNoImage.setTextAlign(Paint.Align.CENTER);
-//        thisTempleLabelPaintNoImage.setShadowLayer(20,0,-5,Color.BLACK);
 
-//        int thisTempleIndex = temples.indexOf(t);
         int thisTempleIndex = templeObjects.indexOf(t); // more OO
 
-//        String thisTempleName = allTempleInfo.get(thisTempleIndex*3);
+
         String thisTempleName = allTempleNames.get(thisTempleIndex);
         Locale curLocale = getResources().getConfiguration().locale;
         String curLan = getResources().getConfiguration().locale.getLanguage();
-        //Log.d("current language: ", curLan);
 
         String thisTempleLocation = "";
-        //通过Locale的equals方法，判断出当前语言环境
-        //Log.d("thisTempleName: ", thisTempleName);
-//        if (curLocale.equals(Locale.SIMPLIFIED_CHINESE)) {
-//            //中文
-//            thisTempleLocation = thisTempleName.substring(0, thisTempleName.length() - 3);
-//            //Log.d("language: ", "zh");
-//        } else {
-//            //英文
-//            //Log.d("language: ", "en");
-//            thisTempleLocation = thisTempleName.substring(0, thisTempleName.length() - 7);
-//        }
 
         if (curLan.equals("zh")) {
             //中文
@@ -1001,9 +801,7 @@ public class TempleView extends View {
             }
         }
 
-//        if (sliderMoving == false && ts < 200 && thisTempleIndex < 185 && show_label) {
         if (show_label) {
-            //c.drawText(thisTempleName, currentTempleX, currentTempleY + newCurrentTempleRadius + thisTempleLabelPaint.getTextSize(), thisTempleLabelPaint);
 
             if(t.hasImage) {
                 if(ts < 200) {
@@ -1015,7 +813,6 @@ public class TempleView extends View {
             } else {
                 c.drawText(thisTempleNameOne, t.x, t.y, thisTempleLabelPaintNoImage);
                 c.drawText(thisTempleNameTwo, t.x, t.y + thisTempleLabelPaintNoImage.getTextSize(), thisTempleLabelPaintNoImage);
-//                c.drawText("No Image", t.x, t.y + newCurrentTempleRadius, thisTempleLabelPaintNoImage);
 
             }
         }
@@ -1057,7 +854,6 @@ public class TempleView extends View {
             c.drawCircle(t.x, t.y, newCurrentTempleRadius * 1.1f , selectedYearTempleFramePaint);
         }
 
-//        c.drawBitmap(t, currentTempleMatrix, null);
         c.drawBitmap(t.image, currentTempleMatrix, null); // more OO
     }
 
@@ -1089,12 +885,6 @@ public void placeAllCircles(Canvas c) {
 
     public void yearDisplay(Canvas c) {
 
-        //get the index of on screen temples,
-        //the first one in on screen temples to the last
-        //go to temple info file, the specific line to get years
-        //3 lines each temple in the file
-
-        //c.drawRect(0, 9 * screenHeight / 10, screenWidth, screenHeight, bluePaint);
         float firstOnScreenTempleIndex = 0;
         float lastOnScreenTempleIndex = 0;
 
@@ -1104,8 +894,6 @@ public void placeAllCircles(Canvas c) {
             firstOnScreenTempleIndex = (onScreenTemples.get(0).get(0));
         }
 
-//        String endYear = allTempleInfo.get((int)(firstOnScreenTempleIndex) * 3 + 2);
-//        String startYear = allTempleInfo.get((int)(lastOnScreenTempleIndex) * 3 + 2) ;
         String endYear = allYears.get((int)(firstOnScreenTempleIndex));
         String startYear = allYears.get((int)(lastOnScreenTempleIndex)) ;
 
@@ -1113,25 +901,6 @@ public void placeAllCircles(Canvas c) {
         String curLan = getResources().getConfiguration().locale.getLanguage();
 
         Locale curLocale = getResources().getConfiguration().locale;
-//        if (curLocale.equals(Locale.SIMPLIFIED_CHINESE)) {
-//            // do nothing //中文
-//            startYear = startYear.substring(0,4);
-//            endYear = endYear.substring(0,4);
-//        } else {
-//            startYear = startYear.substring(startYear.length()-5);
-//            endYear = endYear.substring(endYear.length()-5);
-//            //英文
-//        }
-//
-//        if (curLan.equals("zh")) {
-//            // do nothing //中文
-//            startYear = startYear.substring(0,4);
-//            endYear = endYear.substring(0,4);
-//        } else {
-//            startYear = startYear.substring(startYear.length()-5);
-//            endYear = endYear.substring(endYear.length()-5);
-//            //英文
-//        }
 
 
 
@@ -1157,49 +926,10 @@ public void placeAllCircles(Canvas c) {
             lastOnScreenTempleIndex = (onScreenTemples.get(onScreenTemples.size()-1).get(0));
             firstOnScreenTempleIndex = (onScreenTemples.get(0).get(0));
         }
-//        String endYear = allTempleInfo.get((int)(firstOnScreenTempleIndex) * 3 + 2);
-//        String startYear = allTempleInfo.get((int)(lastOnScreenTempleIndex) * 3 + 2) ;
 
         String endYear = allYears.get((int)(firstOnScreenTempleIndex));
         String startYear = allYears.get((int)(lastOnScreenTempleIndex)) ;
 
-//        String curLan = getResources().getConfiguration().locale.getLanguage();
-//        if (curLan.equals("zh")) {
-//            // do nothing //中文
-//            startYear = startYear.substring(0,4);
-//            endYear = endYear.substring(0,4);
-//        } else {
-//            startYear = startYear.substring(startYear.length()-5);
-//            endYear = endYear.substring(endYear.length()-5);
-//            //英文
-//        }
-
-
-//        Locale curLocale = getResources().getConfiguration().locale;
-//        if (curLocale.equals(Locale.SIMPLIFIED_CHINESE)) {
-//            // do nothing //中文
-//            startYear = startYear.substring(0,4);
-//            endYear = endYear.substring(0,4);
-//        } else {
-//            startYear = startYear.substring(startYear.length()-5);
-//            endYear = endYear.substring(endYear.length()-5);
-//            //英文
-//        }
-
-
-
-
-
-            //String curLan = getResources().getConfiguration().locale.getLanguage();
-//            if (curLan.equals("zh")) {
-//                // do nothing //中文
-//                startYear = startYear.substring(0,4);
-//                endYear = endYear.substring(0,4);
-//            } else {
-//                startYear = startYear.substring(startYear.length()-5);
-//                endYear = endYear.substring(endYear.length()-5);
-//                //英文
-//            }
 
         if (theta <= 40){
             c.drawText(getResources().getString(R.string.first_temple), 6.5f * screenWidth / 4, 18 * screenHeight / 10, yearDisplayPaint);
@@ -1234,9 +964,6 @@ public void placeAllCircles(Canvas c) {
 
         //for (float t = -30; t < 30; t += 0.02f) {
         for (float t = -18; t < 17.5; t += 0.02f) {
-            //Equiangular spiral function：
-            //x = p * cosA, y = p * sinA, where p = N * e^(B * cotC)
-            //When C = PI/2, graph is a circle, when C = 0, graph is a straight line
             float x = centerX + initialR * (float) (Math.exp(t * 1 / (Math.tan(47 * Math.PI / 100)))) * (float) (Math.cos(t));
             float y = centerY + initialR * (float) (Math.exp(t * 1 / (Math.tan(47 * Math.PI / 100)))) * (float) (Math.sin(t));
 
@@ -1248,17 +975,13 @@ public void placeAllCircles(Canvas c) {
 
             ArrayList<Float> oneSpiralCoordinateCopy = new ArrayList<>();
             oneSpiralCoordinateCopy.addAll(oneSpiralCoordinate);
-            //Log.d("x y coordinate", oneSpiralCoordinate.get(0) + "<- x, y -> " + oneSpiralCoordinate.get(1));
             spiralCoordinates.add(oneSpiralCoordinateCopy);
-            //Log.d("x y coordinate", "right after adding, spiralCoordinates are " + spiralCoordinates);
             oneSpiralCoordinate.clear();
         }
 
         topCoordinateInSpiralX = spiralCoordinates.get(spiralCoordinates.size()-1).get(0);
         topCoordinateInSpiralY = spiralCoordinates.get(spiralCoordinates.size()-1).get(1);
 
-        //when q += 12f, top lines circles next to each other the whole time\
-        //must change the same time as getCoordinates()
         for (float q = 0; q < 20; q += 1) {
 
             ArrayList<Float> oneSpiralCoordinateTop = new ArrayList<>();
@@ -1270,7 +993,6 @@ public void placeAllCircles(Canvas c) {
             spiralCoordinates.add(oneSpiralCoordinateTopCopy);
             oneSpiralCoordinateTop.clear();
         }
-        //Toast.makeText(getContext(), spiralCoordinates.size() + " ", Toast.LENGTH_SHORT).show();
         Collections.reverse(spiralCoordinates);
     }
 
@@ -1565,5 +1287,4 @@ public void placeAllCircles(Canvas c) {
 
         return count;
     }
-
 }
