@@ -59,7 +59,6 @@ public class TempleView extends View {
     private ArrayList<ArrayList<Float>> spiralCoordinates;
     private ArrayList<Float> sizes;
     private ArrayList<String> allTempleLinks;
-//    private ArrayList<String> allTempleInfo;
     public ArrayList<String> allYears;
     public ArrayList<String> allTempleNames;
     private int eachIndex;
@@ -97,8 +96,10 @@ public class TempleView extends View {
     public TempleView(Context context) {
         super(context);
         templeObjects = Temple.loadTemplesFromJson(context, "temples.json"); // Load temple objects from JSON
-        howManyTemples = templeObjects.size(); // Adjust howManyTemples based on loaded data
-        // Other initializations
+        howManyTemples = templeObjects.size();
+        allTempleLinks = new ArrayList<>();
+        allYears = new ArrayList<>();
+        allTempleNames = new ArrayList<>();
 
         for (Temple temple : templeObjects) {
             allTempleLinks.add(temple.getLink() != null ? temple.getLink() : ""); // Ensure there is a default value if no link exists
