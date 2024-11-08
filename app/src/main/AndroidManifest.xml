@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-<!--    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>-->
-<!--    <uses-permission android:name="android.permission.ACCESS_COURSE_LOCATION"/>-->
+    <!--    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>-->
+    <!--    <uses-permission android:name="android.permission.ACCESS_COURSE_LOCATION"/>-->
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
@@ -17,19 +17,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TempleMaps"
         tools:targetApi="31">
+
+        <!-- SpiralActivity as Default Activity -->
         <activity
-            android:name=".MainActivity"
+            android:name=".SpiralActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity android:name=".SpiralActivity" />
+        <!-- Other Activities -->
+        <activity android:name=".MainActivity" android:exported="true"/>
         <activity android:name=".ListAct" />
-
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
