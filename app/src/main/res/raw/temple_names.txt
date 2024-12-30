@@ -189,27 +189,27 @@ okinawa_japan_temple 2024
 lima_peru_los_olivos_temple 2024
 orem_utah_temple 2024
 red_cliffs_utah_temple 2024
-urdaneta_philippines_temple 0000
-puebla_mexico_temple 0000
-taylorsville_utah_temple 0000
-coban_guatemala_temple 0000
-salta_argentina_temple 0000
-layton_utah_temple 0000
-pittsburgh_pennsylvania_temple 0000
-mendoza_argentina_temple 0000
-casper_wyoming_temple 0000
+urdaneta_philippines_temple 2024
+puebla_mexico_temple 2024
+taylorsville_utah_temple 2024
+coban_guatemala_temple 2024
+salta_argentina_temple 2024
+layton_utah_temple 2024
+pittsburgh_pennsylvania_temple 2024
+mendoza_argentina_temple 2024
+san_pedro_sula_honduras_temple 2024
+salvador_brazil_temple 2024
+deseret_peak_utah_temple 2024
+casper_wyoming_temple 2024
+tallahassee_florida_temple 2024
 abidjan_cote_divoire_temple 0000
 alabang_philippines_temple 0000
 auckland_new_zealand_temple 0000
-san_pedro_sula_honduras_temple 0000
 davao_philippines_temple 0000
 antofagasta_chile_temple 0000
 bengaluru_india_temple 0000
 harare_zimbabwe_temple 0000
-deseret_peak_utah_temple 0000
-tallahassee_florida_temple 0000
 syracuse_utah_temple 0000
-salvador_brazil_temple 0000
 nairobi_kenya_temple 0000
 neiafu_tonga_temple 0000
 phnom_penh_cambodia_temple 0000
@@ -265,7 +265,7 @@ santiago_west_chile_temple 1111
 vitoria_brazil_temple 1111
 cody_wyoming_temple 1111
 la_paz_bolivia_temple 1111
-antananarivo_madagascar_temple 1
+antananarivo_madagascar_temple 1111
 tacloban_city_philippines_temple 1111
 kananga_democratic_republic_of_the_congo_temple 1111
 monvrovia_liberia_temple 1111
@@ -350,7 +350,20 @@ honolulu_hawaii_temple 1111
 west_jordan_utah_temple 1111
 lehi_utah_temple 1111
 maracaibo_venezuela_temple 1111
-
-
-
-
+juchitán_de_zaragoza_mexico_temple 1111
+santa_ana_el_salvador_temple 1111
+medellín_colombia_temple 1111
+santiago_dominican_republic_temple 1111
+puerto_montt_chile_temple 1111
+dublin_ireland_temple 1111
+milan_italy_temple 1111
+abuja_nigeria_temple 1111
+kampala_uganda_temple 1111
+maputo_mozambique_temple 1111
+coeur_d'alene_idaho_temple 1111
+queen_creek_arizona_temple 1111
+el_paso_texas_temple 1111
+huntsville_alabama_temple 1111
+milwaukee_wisconsin_temple 1111
+summit_new_jersey_temple 1111
+price_utah_temple 1111
