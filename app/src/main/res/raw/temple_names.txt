@@ -53,7 +53,7 @@ st_louis_missouri_temple 1997
 vernal_utah_temple 1997
 preston_england_temple 1998
 monticello_utah_temple 1998
-anchorage_alaskan_temple 1999
+anchorage_alaska_temple 1999
 colonia_juarez_chihuahua_mexico_temple 1999
 madrid_spain_temple 1999
 bogota_colombia_temple 1999
@@ -65,6 +65,7 @@ columbia_south_carolina_temple 1999
 detroit_michigan_temple 1999
 halifax_nova_scotia_temple 1999
 regina_saskatchewan_temple 1999
+billings_montana_temple 1999
 billings_montana_temple 1999
 edmonton_alberta_temple 1999
 raleigh_north_carolina_temple 1999
