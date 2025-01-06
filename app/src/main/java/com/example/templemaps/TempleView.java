@@ -141,7 +141,6 @@ public class TempleView extends View {
         yearDisplayPaint = new Paint();
         selectedYear = "";
         sliderMax = howManyTemples * 30;
-
     }
 
     private String extractYear(String description) {
@@ -189,37 +188,6 @@ public class TempleView extends View {
         sliderMoving = s;
     }
 
-//    public void readLinksFile() {
-//        try {
-//            InputStream allTempleLinksFile =  getContext().getResources().openRawResource(R.raw.all_temple_links);
-//            if (allTempleLinksFile != null)
-//            {
-//                InputStreamReader ir = new InputStreamReader(allTempleLinksFile);
-//                BufferedReader br = new BufferedReader(ir);
-//                String line;
-//                //read each line
-//                int atThisLine = 0;
-//                while (( line = br.readLine()) != null) {
-//                    allTempleLinks.add(line+"\n");
-//                    if (atThisLine < templeObjects.size()) {
-//                        templeObjects.get(atThisLine).setLink(line+"\n");
-//                        atThisLine ++;
-//                    }
-//                }
-//                allTempleLinksFile.close();
-//            }
-//        }
-//        catch (java.io.FileNotFoundException e)
-//        {
-//            Log.d("TestFile", "The File doesn't not exist.");
-//        }
-//        catch (IOException e)
-//        {
-//            Log.d("TestFile", e.getMessage());
-//        }
-//        //Log.d("allTempleLinks is ", allTempleLinks.get(1) + "");
-//    }
-
     public void readOneInfoFile(int id) {
         try {
             InputStream oneTempleInfoFile =  this.getResources().openRawResource(id);
@@ -244,74 +212,6 @@ public class TempleView extends View {
             Log.d("TestFile", e.getMessage());
         }
     }
-
-//    public void readInfoFile() {
-//        try {
-//            InputStream allTempleInfoFile =  this.getResources().openRawResource(R.raw.temple_info);
-//            if (allTempleInfoFile != null)
-//            {
-//                InputStreamReader ir = new InputStreamReader(allTempleInfoFile);
-//                BufferedReader br = new BufferedReader(ir);
-//                String line;
-//                //read each line
-//                while (( line = br.readLine()) != null) {
-//                    allTempleInfo.add(line+"\n");
-//                }
-//                allTempleInfoFile.close();
-//                allYears = getAllYearsFromAllTempleInfo(allTempleInfo);
-//                allTempleNames = getAllTempleNamesFromAllTempleInfo(allTempleInfo);
-//            }
-//        }
-//        catch (java.io.FileNotFoundException e)
-//        {
-//            Log.d("TestFile", "The File doesn't not exist.");
-//        }
-//        catch (IOException e)
-//        {
-//            Log.d("TestFile", e.getMessage());
-//        }
-//
-//    }
-
-//    public ArrayList<String> getAllYearsFromAllTempleInfo(ArrayList<String> allTempleInfoPassIn) {
-//        ArrayList<String> temporary = new ArrayList<>();
-////        for (int i = 0; i < temples.size(); i++) {
-//        for (int i = 0; i < templeObjects.size(); i++) { // more OO
-//            String year = allTempleInfo.get(i * 3 + 2) ;
-////            Locale curLocale = getResources().getConfiguration().locale;
-////            if (curLocale.equals(Locale.SIMPLIFIED_CHINESE)) {
-////                // do nothing //中文
-////                year = year;
-////            } else {
-////                year = year.substring(year.length()-5);
-////                //英文
-////            }
-//
-////            String curLan = getResources().getConfiguration().locale.getLanguage();
-////            if (curLan.equals("zh")) {
-////                // do nothing //中文
-////                year = year;
-////            } else {
-////                year = year.substring(year.length()-5);
-////                //英文
-////            }
-//
-//
-//
-//
-//            temporary.add(year.substring(0,4));
-//        }
-//        return temporary;
-//    }
-//
-//    public ArrayList<String> getAllTempleNamesFromAllTempleInfo(ArrayList<String> allTempleInfoPassIn) {
-//        ArrayList<String> temporary = new ArrayList<>();
-//        for (int i = 0; i < templeObjects.size(); i++) { // more OO
-//            String name = allTempleInfo.get(i * 3 + 0) ;
-//            temporary.add(name);
-//        }
-//        return temporary;
-//    }
 
 
 

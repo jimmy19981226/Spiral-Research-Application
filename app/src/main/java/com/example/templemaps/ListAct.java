@@ -61,6 +61,5 @@ public class ListAct extends AppCompatActivity {
             }
         });
         bottomNav.setSelectedItemId(R.id.navigation_list);
-
     }
 }

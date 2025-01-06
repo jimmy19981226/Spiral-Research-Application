@@ -105,11 +105,6 @@ public class SingleTempleImage extends View {
             orientationJustChanged = false;
         }
 
-//        c.drawText(x + ":x", 100, 100, textPaint);
-//        c.drawText(y + ":y", 100, 140, textPaint);
-//        c.drawText(imageSize + ":imageSize", 100, 180, textPaint);
-//
-
         for (Temple t: threeTemples) {
             if (t.role.equals("current")) {
                 c.drawBitmap(t.image, x, y, null);
@@ -189,20 +184,5 @@ public class SingleTempleImage extends View {
             }
         });
         valueAnimator.start();
-
     }
-
-    // maybe useful later
-//    @Override
-//    public boolean onTouchEvent(MotionEvent m) {
-//        float touchX= m.getX();;
-//        float touchY= m.getY();;
-//        if (m.getAction() == MotionEvent.ACTION_DOWN) {
-//        }
-//        if (m.getAction() == MotionEvent.ACTION_MOVE) {
-//        }
-//        if (m.getAction() == MotionEvent.ACTION_UP) {
-//        }
-//        return true;
-//    }
 }

@@ -96,8 +96,6 @@ public class SpiralActivity extends AppCompatActivity {
 
         @Override
         public void handleMessage(Message m) {
-            //Log.d("My Timer here ", "My Timer ****************" + " ");
-
             if (tv.touchDownOnScreenTempleView == TRUE) {
                 progress = lastProgress;
             }
@@ -136,11 +134,6 @@ public class SpiralActivity extends AppCompatActivity {
                 }
                 stop ++;
             }
-
-            //very helper log here, display current slider progress and it's target progress
-            //Log.d("progress is ", progress + " ");
-            //Log.d("last progress is ", lastProgress + " ");
-
             sendMessageDelayed(obtainMessage(0), 1);
         }
     }
@@ -819,24 +812,6 @@ public class SpiralActivity extends AppCompatActivity {
         layoutParams.weight = 10;
         btnPositive.setLayoutParams(layoutParams);
         btnNegative.setLayoutParams(layoutParams);
-
-        // these will override the onclick above
-//        dialog.getButton(AlertDialog.BUTTON_POSITIVE).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                //do something
-//                Toast.makeText(mContext, "click on yes", Toast.LENGTH_SHORT).show();
-//            }
-//        });
-//        dialog.getButton(AlertDialog.BUTTON_NEGATIVE).setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                //do something
-//                Toast.makeText(mContext, "click on no", Toast.LENGTH_SHORT).show();
-//
-//            }
-//        });
-
     }
 
 }
